@@ -114,7 +114,7 @@ if not st.session_state.show:
     
 
 st.subheader("K-Nearest Colors")
-st.markdown("[K-nearsest neighbor](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm) classification of constant lightness [CIELAB](https://en.wikipedia.org/wiki/CIELAB_color_space) slice, limited to in [gamut](https://en.wikipedia.org/wiki/Gamut) for [sRGB](https://en.wikipedia.org/wiki/SRGB).")
+st.markdown("[K-nearest neighbor](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm) classification of constant lightness [CIELAB](https://en.wikipedia.org/wiki/CIELAB_color_space) slice, limited to in [gamut](https://en.wikipedia.org/wiki/Gamut) for [sRGB](https://en.wikipedia.org/wiki/SRGB).")
 st.markdown("Training labels : *red, green, yellow, blue, purple, pink, orange, brown, black, gray & white*.")
 
 # col1, col2 = st.columns([0.9, 0.1])
